@@ -22,19 +22,20 @@ These insights can help policymakers, supply chain analysts, and local businesse
 
 ## Queries ##
 Business Problem 1: Common commodities in the Top 10 costliest (Avg price) in 2019 & 2020? 
-![image](https://github.com/user-attachments/assets/85fc23f0-6f3b-4d80-94f4-05ba3c3d9371)
+![image](https://github.com/user-attachments/assets/7d952a62-9ea4-4549-975d-0db738608340)
 
 Business Problem 2: Max price difference for any commodity in June 2020 (which commodity)?
-![image](https://github.com/user-attachments/assets/d752bfc3-dcbf-4d8f-9e16-91306d287111)
+![image](https://github.com/user-attachments/assets/992f4efe-b117-4075-b64f-622148264d39)
 
 Business Problem 3: Commodities by number of varieties → Get the 3rd highest?
-![image](https://github.com/user-attachments/assets/194db633-0fc2-4fe0-bc11-f285a5a167fb)
+![image](https://github.com/user-attachments/assets/295b78cf-facf-49f0-a9e9-ccd70deae88a)
 
 Business Problem 4: In the state with the fewest data points → which commodity has the most entries?
-![image](https://github.com/user-attachments/assets/b6adb069-1fe1-48ca-8c53-5822799a3dfa)
+![image](https://github.com/user-attachments/assets/a24a1dcc-12dd-4585-b7e8-feb823fdb126)
 
 Business Problem 5: Which commodity & city had the highest price variation (Jan 2019 vs Dec 2020)?
-![image](https://github.com/user-attachments/assets/89bbb799-7c6d-49d8-9f8d-57d95a697151)
+![image](https://github.com/user-attachments/assets/2ee6981f-2123-4417-b819-b92fd157c3c4)
+
 
 
 
