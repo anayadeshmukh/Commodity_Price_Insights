@@ -1,7 +1,7 @@
 # Commodity_Price_Insights
 SQL Project
 
-**Commodity Price Intelligence: Analyzing Retail Price Volatility Across Regions (2019–2020)**
+## Commodity Price Intelligence: Analyzing Retail Price Volatility Across Regions (2019–2020) ##
 
 **Business Objective:**
 
