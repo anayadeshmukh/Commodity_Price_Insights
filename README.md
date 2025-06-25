@@ -39,14 +39,18 @@ Business Problem 5: Which commodity & city had the highest price variation (Jan 
 
 ### Supply Chain DB
 Business Problem 1: Count of orders by type (exclude Sangli, Srinagar, and fraud)? 
-
+![image](https://github.com/user-attachments/assets/50470498-a297-4da4-96ac-fb446ad0d1c1)
 
 Business Problem 2: Top 3 customers with max completed orders and total sales?
-
+![image](https://github.com/user-attachments/assets/27df82c8-3fd1-4dfd-9f2f-3601296e4546)
 
 Business Problem 3: Order count by shipping mode & department (only if dept has ≥ 40 closed/completed orders)? 
+![image](https://github.com/user-attachments/assets/2abcf469-a7c9-4a36-aea2-6ce379bb5cf2)
 
 Business Problem 4: Shipment Compliance: Which Shipping Mode Experiences the Most Delays?
+![image](https://github.com/user-attachments/assets/0215c2a4-95b9-43d7-a9c3-7b26ae271ac1)
 
 Business Problem 5: State-wise cancellation percentage?
+![image](https://github.com/user-attachments/assets/3228d4b4-331e-44c8-b57d-07629c5c799d)
+
 
