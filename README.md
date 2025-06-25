@@ -1,7 +1,7 @@
 # Commodity_Price_Insights
 SQL Project
 
-## Commodity Price Intelligence: Analyzing Retail Price Volatility Across Regions (2019–2020) ##
+## Commodity Price Intelligence: Analyzing Retail Price Volatility Across Regions (2019–2020) 
 
 **Business Objective:**
 
@@ -20,7 +20,8 @@ These insights can help policymakers, supply chain analysts, and local businesse
 * Optimize distribution strategies.
 * Predict future price instability.
 
-## Queries ##
+## Queries 
+### Commodity DB
 Business Problem 1: Common commodities in the Top 10 costliest (Avg price) in 2019 & 2020? 
 ![image](https://github.com/user-attachments/assets/7d952a62-9ea4-4549-975d-0db738608340)
 
@@ -36,6 +37,16 @@ Business Problem 4: In the state with the fewest data points → which commodity
 Business Problem 5: Which commodity & city had the highest price variation (Jan 2019 vs Dec 2020)?
 ![image](https://github.com/user-attachments/assets/2ee6981f-2123-4417-b819-b92fd157c3c4)
 
+### Supply Chain DB
+Business Problem 1: Count of orders by type (exclude Sangli, Srinagar, and fraud)? 
 
 
+Business Problem 2: Top 3 customers with max completed orders and total sales?
+
+
+Business Problem 3: Order count by shipping mode & department (only if dept has ≥ 40 closed/completed orders)? 
+
+Business Problem 4: Shipment Compliance: Which Shipping Mode Experiences the Most Delays?
+
+Business Problem 5: State-wise cancellation percentage?
 
