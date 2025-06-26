@@ -39,7 +39,6 @@ Business Problem 5: Which commodity & city had the highest price variation (Jan 
 
 ### Supply Chain DB
 Business Problem 1: Count of orders by type (exclude Sangli, Srinagar, and fraud)? 
-
 ![image](https://github.com/user-attachments/assets/50470498-a297-4da4-96ac-fb446ad0d1c1)
 
 Business Problem 2: Top 3 customers with max completed orders and total sales?
