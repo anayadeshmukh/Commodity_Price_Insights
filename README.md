@@ -22,8 +22,8 @@ These insights can help policymakers, supply chain analysts, and local businesse
 
 ## Queries 
 ### Commodity DB
-Business Problem 1: Common commodities in the Top 10 costliest (Avg price) in 2019 & 2020? 
-![image](https://github.com/user-attachments/assets/7d952a62-9ea4-4549-975d-0db738608340)
+Business Problem 1: Common commodities in the Top 10 costliest (Avg price) in 2019 & 2020?
+![image](https://github.com/user-attachments/assets/84dc5f5b-f78b-4d23-9e20-b2a2a7129dc0)
 
 Business Problem 2: Max price difference for any commodity in June 2020 (which commodity)?
 ![image](https://github.com/user-attachments/assets/992f4efe-b117-4075-b64f-622148264d39)
