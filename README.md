@@ -1,56 +1,110 @@
 # Commodity_Price_Insights
 SQL Project
 
-## Commodity Price Intelligence: Analyzing Retail Price Volatility Across Regions (2019–2020) 
+# PricePulse: A Data-Driven Analysis of Commodity Price Trends Across Regions (2019–2020)
 
-**Business Objective:**
+## Database: `commodity_db`
 
-The primary objective of this project is to analyze retail pricing trends and the availability of essential commodities across Indian regions for the years 2019 and 2020. This includes:
+This project aims to analyze key aspects of a commodity price database by focusing on **price variations**, **regional disparities**, **variety distribution**, and **state-wise availability patterns**.
 
-* Identifying the most expensive commodities over two years and analyzing overlaps.
-* Measuring price disparities across regions to detect maximum regional price differences.
-* Understanding commodity diversity by analyzing how many varieties each commodity has.
-* Investigating regional data density to highlight underrepresented states and their key commodities.
-* Measuring price variation trends across cities over time to identify highly volatile commodities.
+---
 
-These insights can help policymakers, supply chain analysts, and local businesses:
+## Business Objective
 
-* Make data-driven decisions on subsidy targeting.
-* Identify regions facing unequal access or inflated pricing.
-* Optimize distribution strategies.
-* Predict future price instability.
+The goal of this project is to uncover patterns and disparities in commodity pricing across different regions of India from **January 2019 to December 2020**, using structured SQL queries and analysis. This study provides critical insights into:
 
-## Queries 
-### Commodity DB
-Business Problem 1: Common commodities in the Top 10 costliest (Avg price) in 2019 & 2020?
-![image](https://github.com/user-attachments/assets/84dc5f5b-f78b-4d23-9e20-b2a2a7129dc0)
+* **Market volatility** is identified by identifying commodities with the highest price variation.
+* **Regional pricing gaps** can signal inefficiencies in distribution or differences in demand.
+* **Commodity diversity**, analyzing the number of varieties for each commodity.
+* **State-wise insights**, especially focusing on under-represented regions with fewer data points.
 
-Business Problem 2: Max price difference for any commodity in June 2020 (which commodity)?
-![image](https://github.com/user-attachments/assets/992f4efe-b117-4075-b64f-622148264d39)
+These insights can assist in policy-making, logistics optimization, and price monitoring for businesses, governments, and consumers.
 
-Business Problem 3: Commodities by number of varieties → Get the 3rd highest?
-![image](https://github.com/user-attachments/assets/295b78cf-facf-49f0-a9e9-ccd70deae88a)
+---
 
-Business Problem 4: In the state with the fewest data points → which commodity has the most entries?
-![image](https://github.com/user-attachments/assets/a24a1dcc-12dd-4585-b7e8-feb823fdb126)
+## Queries
 
-Business Problem 5: Which commodity & city had the highest price variation (Jan 2019 vs Dec 2020)?
-![image](https://github.com/user-attachments/assets/2ee6981f-2123-4417-b819-b92fd157c3c4)
+### Business Problem 1: Common commodities in the Top 10 costliest (Avg price) in 2019 & 2020?
+![image](https://github.com/user-attachments/assets/3ce1f697-a011-4244-a91f-27f08cc4d852)
 
-### Supply Chain DB
-Business Problem 1: Count of orders by type (exclude Sangli, Srinagar, and fraud)? 
-![image](https://github.com/user-attachments/assets/50470498-a297-4da4-96ac-fb446ad0d1c1)
+### Output
+commodity      
+----------------
+Shoes-Gents
+Coffee
+Black Pepper
+Soft Cake
+Meat
+Saree
+Ghee
 
-Business Problem 2: Top 3 customers with max completed orders and total sales?
-![image](https://github.com/user-attachments/assets/27df82c8-3fd1-4dfd-9f2f-3601296e4546)
+---
 
-Business Problem 3: Order count by shipping mode & department (only if dept has ≥ 40 closed/completed orders)? 
-![image](https://github.com/user-attachments/assets/2abcf469-a7c9-4a36-aea2-6ce379bb5cf2)
+### Business Problem 2: Max price difference for any commodity in June 2020 (which commodity)?
+![image](https://github.com/user-attachments/assets/b530f1e8-8407-4c96-a547-a1bb004f3660)
 
-Business Problem 4: Shipment Compliance: Which Shipping Mode Experiences the Most Delays?
-![image](https://github.com/user-attachments/assets/0215c2a4-95b9-43d7-a9c3-7b26ae271ac1)
+### Output
+commodity  | max_diff   
+-----------|--------------
+Coffee	   | 2435.00
 
-Business Problem 5: State-wise cancellation percentage?
-![image](https://github.com/user-attachments/assets/3228d4b4-331e-44c8-b57d-07629c5c799d)
+---
 
+### Business Problem 3: Commodities by number of varieties → Get the 3rd highest?
+![image](https://github.com/user-attachments/assets/33341c68-93e1-4a8d-a734-7d19f6f80a5f)
 
+### Output
+commodity  | variety_count   
+-----------|-----------------
+Coffee	   | 2
+
+---
+
+### Business Problem 4: In the state with the fewest data points → which commodity has the most entries?
+![image](https://github.com/user-attachments/assets/6045951b-6cdd-4999-9e52-bfd7b00dfc13)
+
+### Output
+state              | commodity | data_count        
+-------------------|-----------|---------------
+Arunachal Pradesh  | Rice	     | 9   
+
+---
+
+### Business Problem 5: Which commodity & city had the highest price variation (Jan 2019 vs Dec 2020)?
+![image](https://github.com/user-attachments/assets/4b010e4d-08f7-42b4-a1b4-c8e6f9f54aa6)
+
+### Output
+commodity | city    | jan_price | dec_price  | variation_abs | variation_pct      
+----------|---------|-----------|------------|---------------|-----------------
+Fish	    | Kurnool	| 50.000000	| 500.000000 | 450.000000	   | 900.00
+
+---
+
+## Tables Used
+
+- `price_details` – id, region_id, commodity_id, date, retail_price
+- `commodities_info` – id, commodity, variety 
+- `region_info` – id, state, city 
+ 
+---
+
+## Tools & Skills
+
+- SQL Joins (INNER JOIN, LEFT JOIN)
+- Aggregations (MIN, MAX, COUNT, SUM)
+- GROUP BY and ORDER BY operations
+- Conditional filtering using WHERE and HAVING
+- Date-based filtering and analysis
+
+---
+
+## Outcome
+
+This project reveals actionable commodity market insights to:
+* Detect price volatility across regions and periods
+* Compare regional pricing differences for the same commodities
+* Rank commodities based on variety availability
+* Identify data gaps and commodity trends in under-represented states
+* Highlight the most dynamic commodity-city pair for better market targeting
+
+---
