@@ -28,15 +28,15 @@ These insights can assist in policy-making, logistics optimization, and price mo
 ![image](https://github.com/user-attachments/assets/3ce1f697-a011-4244-a91f-27f08cc4d852)
 
 ### Output
-commodity     | 
---------------|-----
-Shoes-Gents   |
-Coffee        |
-Black Pepper  |
-Soft Cake     |
-Meat          |
-Saree         |
-Ghee          |
+| commodity     |  
+|---------------|-----
+| Shoes-Gents   |
+| Coffee        |
+| Black Pepper  |
+| Soft Cake     |
+| Meat          |
+| Saree         |
+| Ghee          |
 
 ---
 
@@ -46,7 +46,7 @@ Ghee          |
 ### Output
 commodity  | max_diff   
 -----------|--------------
-Coffee	   | 2435.00
+Coffee	    | 2435.00
 
 ---
 
