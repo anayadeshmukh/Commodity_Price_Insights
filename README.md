@@ -101,10 +101,10 @@ Fish	    | Kurnool	| 50.000000	| 500.000000 | 450.000000	   | 900.00
 ## Outcome
 
 This project reveals actionable commodity market insights to:
-* Detect price volatility across regions and periods
-* Compare regional pricing differences for the same commodities
-* Rank commodities based on variety availability
-* Identify data gaps and commodity trends in under-represented states
-* Highlight the most dynamic commodity-city pair for better market targeting
+* Detect **price volatility** across regions and periods
+* Compare **regional pricing differences** for the same commodities
+* Rank commodities based on **variety availability**
+* Identify **data gaps** and commodity trends in under-represented states
+* Highlight the **most dynamic commodity-city pair** for better market targeting
 
 ---
